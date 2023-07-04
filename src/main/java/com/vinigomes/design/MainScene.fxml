@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="815.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vinigomes.design.Controller">
+   <children>
+      <Label layoutX="183.0" layoutY="21.0" text="Entre com um comando">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="664.0" layoutY="84.0" mnemonicParsing="false" onAction="#pressionado" text="Gerar" />
+      <ImageView fx:id="myImageView" fitHeight="512.0" fitWidth="512.0" layoutX="152.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="myTextField" layoutX="146.0" layoutY="84.0" prefHeight="50.0" prefWidth="512.0" />
+   </children>
+</AnchorPane>
